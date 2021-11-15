@@ -45,7 +45,7 @@ def main(argv=None):
   gen.copy_cov()
   gen.genhtml()
 
-  print "coverage report at %s" % gen.report_index_url()
+  # print "coverage report at %s" % gen.report_index_url()
 
   return 0
 
